@@ -1,8 +1,8 @@
-'''
+"""
 Created on 24.11.2020
 
 @author: sbiker99-prog
-'''
+"""
 
 class CargoShip:
     

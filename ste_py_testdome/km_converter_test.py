@@ -1,8 +1,8 @@
-'''
+"""
 Created on 24.11.2020
 
 @author: sbiker99-prog
-'''
+"""
 import unittest
 from ste_testdome.km_converter import MilesToKmConverter
 from ste_testdome.km_converter import NauticalMilesToKmConverter
