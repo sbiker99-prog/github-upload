@@ -3,12 +3,12 @@ Created on 24.11.2020
 
 @author: sbiker99-prog
 """
-import unittest
-from ste_testdome.km_converter import MilesToKmConverter
-from ste_testdome.km_converter import NauticalMilesToKmConverter
+import unittest as ut
+from .km_converter import MilesToKmConverter, NauticalMilesToKmConverter
+from .km_converter import NauticalMilesToKmConverter
 
-class Test(unittest.TestCase):
 
+class Test(ut.TestCase):
 
     def test_MilesToKmConverter_get_miles_to_km_factor(self):
         mkm = MilesToKmConverter()
@@ -27,7 +27,7 @@ class Test(unittest.TestCase):
         print(f'Convert 2 miles to km using NauticalMilesToKmConverter::miles_to_km {nmkm.miles_to_km(2)}')
 
     def test_NauticalMilesToKmConverter_self(self):
-        nmkm = NauticalMilesToKmConverter()
+        nmkm: NauticalMilesToKmConverter = NauticalMilesToKmConverter()
         print('printFactors_self: ')
         nmkm.printFactors_self()
 
@@ -36,6 +36,7 @@ class Test(unittest.TestCase):
         print('printFactors_super: ')
         nmkm.printFactors_super()
 
+
 if __name__ == "__main__":
-    #import sys;sys.argv = ['', 'Test.testName']
-    unittest.main()
+    # import sys;sys.argv = ['', 'Test.testName']
+    ut.main()

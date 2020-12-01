@@ -3,10 +3,10 @@ Created on 24.11.2020
 
 @author: sbiker99-prog
 """
-import unittest
+import unittest as ut
 
 
-class Test(unittest.TestCase):
+class Test(ut.TestCase):
 
 
     def testName(self):
@@ -15,4 +15,4 @@ class Test(unittest.TestCase):
 
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']
-    unittest.main()
+    ut.main()
