@@ -1,7 +1,7 @@
 '''
 Created on 24.11.2020
 
-@author: caronist
+@author: sbiker99-prog
 '''
 import unittest
 from ste_testdome.max_sum import MaxSum

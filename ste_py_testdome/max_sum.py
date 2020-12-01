@@ -1,7 +1,7 @@
 '''
 Created on 24.11.2020
 
-@author: caronist
+@author: sbiker99-prog
 '''
 
 class MaxSum(object):
