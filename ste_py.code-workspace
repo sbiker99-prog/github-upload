@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "ste_py_testdome"
-		},
-		{
-			"path": "ste_py_vscode_learn"
 		}
 	],
 	"settings": {}
